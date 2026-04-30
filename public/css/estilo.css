@@ -8,8 +8,8 @@ body {
 }
 
 :root {
-  --tamanho-header: 80px;
-  --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+  --tamanho-header: 160px;
+  --tamanho-banner: calc(75vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-simulador: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-footer: 65px;
@@ -91,7 +91,7 @@ body {
 /* MISSÃO VISÃO VALORES */
 
 .social {
-  background-color: #e5e5e5;
+  background-color:   #ebebeb;
   display: flex;
 }
 
@@ -101,6 +101,7 @@ body {
 
 .box img {
   width: 170px;
+  height: 170px;
 }
 
 .social .container .boxes {
@@ -123,7 +124,7 @@ body {
 /* FOOTER */
 
 .footer {
-  background-color: #32b9cd;
+  background-color: #9c0303;
   height: 150px;
   color: #fff;
   display: flex;
